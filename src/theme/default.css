@@ -1,0 +1,27 @@
+html {
+    --color-danger-bg: rgba(100, 2, 2, 0.75);
+    --color-danger-fg: #333;
+    --color-danger-hover: rgb(156, 2, 2);
+    --color-overlay-bg: rgba(255,255,255,.5);
+    --color-highlighted-text-bg: rgba(255,255,0,.5);
+    --color-highlighted-text-fg: #000;
+    --color-item-bg: white;
+    --color-selected-icon: green;
+    --color-unselected-icon: #ddd;
+    --color-item-hover-bg: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --color-danger-bg: rgba(100, 2, 2, 0.75);
+        --color-danger-fg: #ddd;
+        --color-danger-hover: rgb(156, 2, 2);
+        --color-overlay-bg: rgba(0,0,0,.5);
+        --color-highlighted-text-bg: rgba(255,255,0,.5);
+        --color-highlighted-text-fg: #000;
+        --color-item-bg: #212121; 
+        --color-selected-icon: green;
+        --color-unselected-icon: #444;
+        --color-item-hover-bg: #333;
+   }
+}

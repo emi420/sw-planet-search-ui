@@ -1,0 +1,4 @@
+.HighlightedText {
+    background-color: var(--color-highlighted-text-bg);
+    color: var(--color-highlighted-text-fg);
+}

@@ -1,0 +1,13 @@
+.SearchForm {
+    position: relative;
+}
+.SearchForm input {
+    width: 100%;
+    padding-right: 90px;
+}
+
+.loading {
+    position: absolute;
+    right: 8px;
+    top: 5px
+}

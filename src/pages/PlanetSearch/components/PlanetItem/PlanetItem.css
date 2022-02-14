@@ -1,0 +1,35 @@
+
+.PlanetItem {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background: var(--color-item-bg);
+}
+
+.PlanetItemHoverable:hover {
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    background: var(--color-item-hover-bg);
+}
+
+.PlanetItemTable {
+    width: 100%;
+}
+
+.PlanetItemTable td, .PlanetItemTable th {
+    font-size: .7rem;
+    width: 25%;
+}
+
+.PlanetItemTable td {
+    background-color: var(--color-item-bg);
+}
+
+.PlanetItemDeleteButton {
+    background-color: var(--color-danger-bg);
+    background-color: var(--color-danger-fg);
+}
+
+.PlanetItemDeleteButton:hover {
+    background-color: var(--color-danger-hover);
+}

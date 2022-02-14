@@ -1,0 +1,19 @@
+
+.PlanetSelect {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background: var(--color-item-bg);;
+    z-index: 1;
+    padding: 10px; 
+    border: 10px solid var(--color-item-bg);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, 0.2);
+}
+
+.PlanetSelectItem {
+    cursor: pointer;
+}

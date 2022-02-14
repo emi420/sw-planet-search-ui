@@ -1,0 +1,21 @@
+
+.loadingText {
+    opacity: 0;
+	animation: pulse .5s infinite;
+    font-size: .85rem;
+	padding: 5px;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: .25;
+	}
+
+	70% {
+		opacity: .5;
+	}
+
+	100% {
+		opacity: .75;
+	}
+}
